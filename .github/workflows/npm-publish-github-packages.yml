@@ -12,5 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: npm publish ./sample-packages/npm
+      - with:
+          registry-url: "https://npm.pkg.github.com"
         env:
           NPM_CONFIG_TOKEN: ${{ secrets.exercise6pat }}
