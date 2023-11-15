@@ -1,4 +1,7 @@
 {
   "name": "@zirconiu/index.js",
-  "repository": "https://github.com/Zirconiu/test-exercise-6.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zirconiu/test-exercise-6.git"
+  }
 }
