@@ -12,5 +12,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: npm publish ./sample-packages/npm
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.exercise6pat}}
