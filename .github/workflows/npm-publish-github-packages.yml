@@ -15,6 +15,9 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
+      - run: |
+          echo "@username:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.exercise6pat }}" >> .npmrc
       - run: npm publish ./sample-packages/npm
         env:
           NPM_CONFIG_TOKEN: ${{ secrets.exercise6pat }}
