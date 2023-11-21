@@ -1,4 +1,6 @@
 [![index.js Package](https://github.com/Zirconiu/test-exercise-6/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/Zirconiu/test-exercise-6/actions/workflows/npm-publish-github-packages.yml)
+[![Grading workflow](https://github.com/Zirconiu/test-exercise-6/actions/workflows/grading.yml/badge.svg)](https://github.com/Zirconiu/test-exercise-6/actions/workflows/grading.yml)
+[![Check Markdown links](https://github.com/Zirconiu/test-exercise-6/actions/workflows/link-checker.yml/badge.svg)](https://github.com/Zirconiu/test-exercise-6/actions/workflows/link-checker.yml)
 
 # Welcome to the exercise on publishing packages!
 
